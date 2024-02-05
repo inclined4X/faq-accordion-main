@@ -1,5 +1,5 @@
 const plusIcons = document.querySelectorAll(".plus");
-const minusIcons = document.querySelectorAll(".cross");
+const minusIcons = document.querySelectorAll(".minusSign");
 const paragraphs = document.querySelectorAll(".paragraph");
 
 // for loop for when clicked on the plus icon
