@@ -31,7 +31,7 @@ body {
 
 .faq-accordion {
   display: block;
-  padding: 40px 50px;
+  padding: 40px 15px;
   margin: auto;
   color: hsl(292, 42%, 14%);
   background-color: hsl(0, 0%, 100%);
@@ -46,4 +46,49 @@ body {
   gap: 30px;
   text-align: center;
   padding-left: 10px;
+}
+
+.faq-content {
+  margin-bottom: 10px;
+}
+
+.faq-dropdown {
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-dropdown-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 0;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.faq-dropdown-header h4 {
+  font-weight: 600;
+  width: 95%;
+}
+
+.faq-icon {
+  border: 0px;
+  width: 30px;
+  height: 30px;
+  background: url("./assets/images/icon-plus.svg");
+  background-size: cover;
+  background-color: inherit;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+.faq-dropdown-body {
+  margin-bottom: 15px;
+  display: none;
+}
+
+.faq-dropdown-body .open {
+  display: block;
 }
