@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -14,4 +15,35 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+  background: url("./assets/images/background-pattern-desktop.svg") no-repeat;
+  background-color: var(--light-pink);
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.faq-accordion {
+  display: block;
+  padding: 40px 50px;
+  margin: auto;
+  color: hsl(292, 42%, 14%);
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 0px 30px 100px -50px black;
+}
+
+.faq-heading {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  padding-left: 10px;
 }
