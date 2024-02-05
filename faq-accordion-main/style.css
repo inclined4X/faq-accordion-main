@@ -14,6 +14,8 @@ body {
   width: 100%;
   min-height: 100vh;
   align-items: center;
+  background-position: top;
+  background-size: contain;
 }
 
 .container {
@@ -46,7 +48,6 @@ body {
   color: hsl(292, 16%, 49%);
   font-size: 16px;
   letter-spacing: 1px;
-  cursor: pointer;
 }
 
 .container .question img {
