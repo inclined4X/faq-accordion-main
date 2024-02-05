@@ -84,11 +84,28 @@ body {
   top: 25px;
 }
 
+.faq-icon.open {
+  display: block;
+}
+
 .faq-dropdown-body {
   margin-bottom: 15px;
   display: none;
 }
 
-.faq-dropdown-body .open {
+.faq-dropdown-body.open {
   display: block;
+}
+
+@media (max-width: 760px) {
+  body {
+    background: url("./assets/images/background-pattern-mobile.svg") no-repeat;
+    background-size: 100%;
+    min-width: 375px;
+  }
+
+  .faq-accordion {
+    min-width: 400px;
+    margin: auto;
+  }
 }
